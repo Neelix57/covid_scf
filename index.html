@@ -3,6 +3,7 @@
   <head>
    	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
   	<title>Bienvenue sur Solidarité Commerçants Français</title>
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   	<link rel="stylesheet" href="style.css" type="text/css">
   	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
   </head>
@@ -10,10 +11,10 @@
  	
  		<!-- Begin Top Bar -->
 		<!-- Title Image Display -->
-  	<div class="top-flex-container"><a href="link.html">SOLIDARITÉ COMMERÇANTS</a>
+  	<header class="d-flex flex-row justify-content-between p-2"><a class="logo align-self-start" href="link.html">SOLIDARITÉ COMMERÇANTS</a>
   
 		<!-- Searchbox -->
-			<div class="search-container">
+			<div class="search-container align-self-center">
 				<form> 
 					<input type="text" placeholder="CP ou ville..." name="search" />
  					<button type="submit"><i class="fas fa-search" style="color: #bfbfbf;"></i></button>
@@ -21,22 +22,38 @@
 			</div>
 			
 			<!-- Vendors Access -->
-			<div class="vendors-container">
+			<div class="vendors-container align-self-end">
 			<a href="vendors.html">ACCÈS COMMERÇANTS</a>
 			</div>
-		</div>
+		</header>
 		<!-- End Top Bar -->
 	
 		<!-- Begin Navigation Bar -->  
-  	<div class="nav-flex-container">
+  	<nav class="d-flex flex-row justify-content-between p-2">
    		<a href="index.html">Accueil</a>
    		<a href="about.html">À-propos</a>
 			<a href="contact.html">Contact</a>
 			<a href="signin.html">Se connecter</a>
 			<a href="signup.html">S'inscrire</a>
 			<a href=""><i class='fas fa-shopping-cart'></i></a>
-		</div>
+		</nav>
 		<!-- End Navigation Bar -->
 	
+		<div class="image"><img src="carte.jpg" /></div>
+		
+		<!-- Begin Document Body -->
+		<section class="container-fluid">
+			<h1 style="text-align: center;">COVID-19: Soyons solidaires</h1>
+			<div class="d-block w-100 p-5 lead text-center">	
+				<div class="text-justify">
+					<p>Retrouvez vos commerces non essentiels, dans l'obligation de fermer suite au confinement. Ce site à
+					pour but de leur permettre de continuer leur activité et, peut-être même, sauver des emplois. De plus en plus,
+					nous achetons en ligne. L'e-commerce est devenu l'une des premières façons d'acheter des français. Alors, pourquoi
+					nos petits commerçants ne profiteraient pas, eux-aussi, de la technologie numérique.</p>
+					<p>Offrons leur la chance de sauver leurs entreprises, qui, si la situation persiste, ne tiendront
+					plus très longtemps. À l'approche de Noël, plus que jamais, nous avons besoin d'eux... et eux de nous !</p>
+				</div>
+			</div>
+		</section>
  	</body>
 </html>
